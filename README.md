@@ -106,14 +106,14 @@ Plotted time vs. input size for visualization.
 
 ⏱️ **Time Complexity**
 
-Best Case: 
+**Best Case:** 
 𝑂
 (
 𝑛
 )
 O(n) (when already sorted)
 
-Average Case: 
+**Average Case:** 
 𝑂
 (
 𝑛
@@ -123,7 +123,7 @@ O(n
 2
 )
 
-Worst Case: 
+**Worst Case:** 
 𝑂
 (
 𝑛
@@ -133,21 +133,21 @@ O(n
 2
 )
 
-📊 Observation
+📊 **Observation**
 
 Bubble Sort performs poorly on large datasets due to its quadratic time complexity.
 It is mainly used for educational purposes rather than real-world applications.
 
-⚡ 3. Merge Sort
-🔍 Objective
+⚡ **3. Merge Sort**
+🔍 **Objective**
 
 To implement Merge Sort using recursion and evaluate its time complexity and space requirements.
 
-🧠 Description
+🧠 **Description**
 
 Merge Sort follows the divide and conquer approach by dividing the array into two halves, sorting each recursively, and merging them.
 
-⚙️ Implementation Steps
+⚙️ **Implementation Steps**
 
 Implemented recursive splitting of the array.
 
@@ -157,9 +157,9 @@ Visualized recursion depth and time taken using graphs.
 
 Compared performance for different input sizes.
 
-⏱️ Time Complexity
+⏱️ **Time Complexity**
 
-Best Case: 
+**Best Case:** 
 𝑂
 (
 𝑛
@@ -169,7 +169,7 @@ log
 )
 O(nlogn)
 
-Average Case: 
+**Average Case:** 
 𝑂
 (
 𝑛
@@ -179,7 +179,7 @@ log
 )
 O(nlogn)
 
-Worst Case: 
+**Worst Case:** 
 𝑂
 (
 𝑛
@@ -189,7 +189,7 @@ log
 )
 O(nlogn)
 
-📊 Observation
+📊 **Observation**
 
 Merge Sort provides stable and consistent performance even for large inputs.
 However, it requires extra space for merging, leading to an auxiliary space complexity of 
@@ -199,16 +199,16 @@ However, it requires extra space for merging, leading to an auxiliary space comp
 )
 O(n).
 
-⚔️ 4. Quick Sort
-🔍 Objective
+⚔️ **4. Quick Sort**
+🔍 **Objective**
 
 To implement Quick Sort and analyze its recursive behavior, partition strategy, and runtime efficiency.
 
-🧠 Description
+🧠 **Description**
 
 Quick Sort also uses the divide and conquer technique. It selects a pivot element, partitions the array around it, and recursively sorts the subarrays.
 
-⚙️ Implementation Steps
+⚙️ **Implementation Steps**
 
 Implemented recursive Quick Sort with partitioning.
 
@@ -218,9 +218,9 @@ Plotted time complexity comparisons with Merge Sort.
 
 Observed how pivot selection affects runtime.
 
-⏱️ Time Complexity
+⏱️ **Time Complexity**
 
-Best Case: 
+**Best Case:** 
 𝑂
 (
 𝑛
@@ -230,7 +230,7 @@ log
 )
 O(nlogn)
 
-Average Case: 
+**Average Case:** 
 𝑂
 (
 𝑛
@@ -240,7 +240,7 @@ log
 )
 O(nlogn)
 
-Worst Case: 
+**Worst Case:** 
 𝑂
 (
 𝑛
@@ -250,17 +250,17 @@ O(n
 2
 ) (for poor pivot choices)
 
-📊 Observation
+📊 **Observation**
 
 Quick Sort generally outperforms Merge Sort in average cases because of in-place partitioning and better cache utilization.
 However, its performance degrades for already sorted data if the pivot is not chosen wisely.
 
-📈 5. Comparative Analysis of Sorting Algorithms
-⚙️ Description
+📈 **5. Comparative Analysis of Sorting Algorithms**
+⚙️ **Description**
 
 All sorting algorithms were tested on lists of different sizes. Execution times were recorded, and results were visualized using matplotlib.
 
-📊 Observation
+📊 **Observation**
 
 Bubble Sort showed the slowest performance due to quadratic time complexity.
 
@@ -268,12 +268,12 @@ Merge Sort and Quick Sort exhibited significantly faster runtimes.
 
 Quick Sort was slightly faster than Merge Sort in average cases but less consistent in the worst case.
 
-🧩 Conclusion
+🧩 **Conclusion**
 
 Efficient algorithms such as Merge Sort and Quick Sort are ideal for large datasets, while simpler ones like Bubble Sort are useful for conceptual learning.
 The Fibonacci comparison reinforced the importance of algorithm optimization and iterative improvements.
 
-🧠 Key Takeaways
+🧠 **Key Takeaways**
 
 Recursive algorithms are elegant but often inefficient.
 

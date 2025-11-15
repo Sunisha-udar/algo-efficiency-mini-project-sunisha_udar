@@ -1,5 +1,5 @@
 # algo-efficiency-mini-project-sunisha_udar
-🧮 **Assignment 1 – Data Analysis of Algorithms**
+🧮 **Assignment – 1 : Algorithm Foundations**
 
 📘 **Introduction**
 
